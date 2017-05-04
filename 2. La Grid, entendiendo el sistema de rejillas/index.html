@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+
+	<header>
+		<div class='container'>
+			<h1>Header</h1>
+		</div>
+	<!--container: Sirve para centrar el contenido
+         container-fluid: sirve para abarcar el contenido completo-->
+	</header>
+	<!--Bootstrap maneja 12 columnas para dividir nuestro contenido
+      clase row: agregar filas a nuestro grid indicar que elemento sera una fila
+      col-md:indicar el numero de columnas columna + tamaño (en este caso mediano) + numero decolumnas a abarcar
+      Existen cuatro tamaños de columnas:
+      col-xs- significa extra small y es para dispositivos moviles.
+      col-sm- significa samll es para dispositivos moviles con un grado de tamañño mayor como las tabletas.
+      col-md- significa medium es para tabletas en un formato horizontal o pantallas con un una mayor resolucion a las moviles tablets
+      col-lg- significa large  es para computadoras de escritorio
+
+     Bootstrap esta basado en mobile first que consiste  en que por ejemplo si aplicas un estilo css con xs y sm y a los demas  tamaños no lo haces tomara como referencia el ultimo tamaño agregado 
+     si md tiene 3 y lg tiene 3 puedo borrar lg ya que tienen el mismo valor 
+     -->
+	<div class="container-fluid">
+		<div class="main row">
+		<article class='col-xs-12 col-sm-8 col-md-9'>
+			<h3>Articulo - Article</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<aside class='col-xs-12 col-sm-4 col-md-3'>
+			<h3>Sidebar - Aside</h3>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</aside>
+	</div>
+	<div class="row">
+		<div class="color1 col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium officiis qui vitae, exercitationem atque nobis sit maiores est inventore repellat accusantium soluta commodi recusandae voluptas. Provident repellendus pariatur sapiente voluptatum?
+			<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium officiis qui vitae, exercitationem atque nobis sit maiores est inventore repellat accusantium soluta commodi recusandae voluptas. Provident repellendus pariatur sapiente voluptatum?-->
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium officiis qui vitae, exercitationem atque nobis sit maiores est inventore repellat accusantium soluta commodi recusandae voluptas. Provident repellendus pariatur sapiente voluptatum?</p>
+		</div>
+		<!--Corrige errores de diseño de tamaño (muy usado en floats)-->
+		<!--<div class="clearfix visible-sm-block"></div>-->
+		<div class="color1 col-xs-12 col-sm-6 col-md-3"> <!--Desplazar columnas offset  col-md-offset-3-->
+			<h3>Columna</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident magnam maxime reprehenderit distinctio accusamus quos quae sapiente non facere accusantium, omnis consectetur totam, possimus quo vero laboriosam culpa tempora amet.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, laudantium quos ad. Ea maxime, rem unde pariatur eum nesciunt et assumenda fugit, totam nulla, quis ullam sapiente. Saepe obcaecati, voluptates.</p>
+		</div>
+	</div>
+	</div>
+	<footer>
+		<div class='container'><h3>David Elias Gatica Morales</h3></div>
+	</footer>
+	
+<script type="text/javascript" src='jquery.js'></script>
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

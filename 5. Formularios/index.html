@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Formulario Bloque-->
+<div class="container">
+	<form action="" class="">
+	<div class='form-group'>
+		<label for="nombre">Nombre:</label>
+		<input class="form-control" id="nombre" type="text" placeholder="Nombre:">
+	</div>
+	<div class='form-group'>
+		<label for="option">Elige una opción:</label>
+		<select class="form-control" name="" id="option">
+			<option value="">Opcion #1</option>
+			<option value="">Opcion #2</option>
+			<option value="">Opcion #3</option>
+			<option value="">Opcion #4</option>
+			<option value="">Opcion #5</option>
+		</select>
+	</div>
+    <div class='form-group'>
+	    <label for="mensaje">Mensaje:</label>
+		<textarea name="" class="form-control" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+	</div>
+	<div class='form-group'>
+		<label for="archivo">Archivo:</label>
+		<input type="file" id='archivo'>
+		<p class='help-block'>Maximo 50MB</p>
+	</div>
+		<button class='btn btn-primary'>Enviar</button>
+	</form>
+<!--Formulario en linea-->
+
+<br>
+	<form action="" class='form-inline'>
+		<div class="form-group">
+			<label class="sr-only" for="nombre">Nombre:</label>
+			<input class="form-control" id="" type="text" placeholder="Nombre:">
+		</div>
+		<div class="form-group">
+			<div class="input-group">
+				<label class="sr-only" for="correo">Correo:</label>
+				<div class="input-group-addon">@</div>
+				<input class="form-control" id="correo" type="text" placeholder="Correo:">
+			</div>
+		</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" name="" id="">Recuerdame
+			</label>
+		</div>
+		<button class="btn btn-primary">Enviar</button>
+	</form>
+</div>
+<!---->
+
+<!--Formulario Horizontal crea formularios utilizando el grid-->
+<br>
+<div class="container">
+	<form action="" class='form-horizontal'>
+		<div class="form-group">
+			<label for="nombre" class='control-label col-md-2'>Nombre:</label>
+			<div class="col-md-10">
+				<input type="text" class='form-control' id='nombre' placeholder='Nombre*'>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="nombre" class='control-label col-md-2'>Nombre:</label>
+			<div class="col-md-10">
+				<p class="form-control-static">Carlos Arturo Esparza</p>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="correo" class="control-label col-md-2">Correo:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="correo" placeholder="*Correo" disabled>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="checkbox col-md-2 col-md-offset-2">
+				<label>
+					<input type="checkbox" name="" id="" disabled> Recuerdame
+				</label>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-2 col-md-offset-2">
+				<button class="btn btn-primary">Enviar</button>
+			</div>
+		</div>
+	</form>
+
+	<br>
+	
+	<form action="" class='form-horizontal'>
+	<fieldset disabled>
+		<div class="form-group has-success">
+			<label for="nombre" class='control-label col-md-2'>Nombre:</label>
+			<div class="col-md-10">
+				<input type="text" class='form-control' id='nombre' placeholder='Nombre*'>
+			</div>
+		</div>
+
+		<div class="form-group has-warning">
+			<label for="nombre" class='control-label col-md-2'>Nombre:</label>
+			<div class="col-md-10">
+				<p class="form-control-static">Carlos Arturo Esparza</p>
+			</div>
+		</div>
+		<div class="form-group has-error">
+			<label for="correo" class="control-label col-md-2">Correo:</label>
+			<div class="col-md-10">
+				<input type="text" class="form-control" id="correo" placeholder="*Correo" disabled>
+			</div>
+		</div>
+		<div class="form-group has-success">
+			<div class="checkbox col-md-2 col-md-offset-2">
+				<label>
+					<input type="checkbox" name="" id="" disabled> Recuerdame
+				</label>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-md-2 col-md-offset-2">
+				<button class="btn btn-primary">Enviar</button>
+			</div>
+		</div>
+		</fieldset>
+	</form>
+	
+
+
+
+	
+</div>
+
+<div class='container'>
+<form action="" class=''>
+		<div class="form-group">
+				<input type="text"  class='form-control' id='nombre' placeholder='Nombre*'>
+		</div>
+		<div class="form-group">
+				<input type="text"  id='nombre' class='form-control' placeholder='Nombre*'>
+		</div>
+
+		<div class="form-group">
+				<input type="text"  id='nombre' class='form-control'  placeholder='Nombre*'>
+		</div>
+
+		<div class="checkbox">
+		<div class="checkbox">
+			<label for="">
+				<input type="checkbox" name="" id=""> Checkbox #1
+			</label>
+		</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" name="" id="" disabled> Checkbox #2
+			</label>
+		</div>
+		<div class="checkbox">
+		    <label>
+				<input type="checkbox" name="" id=""> Checkbox #3
+			</label>
+		</div>
+		</div>
+		<!--checkbox bloque-->
+		<div class="radio">	
+		<div class="radio">
+			<label for="radio1">
+				<input type="radio" name='opcion' id='radio1' disabled> Radio Button
+			</label>
+		</div>
+		<div class="radio">
+			<label for="radio2">
+				<input type="radio" name='opcion' id='radio2'> Radio Button
+			</label>
+		</div>
+		<div class="radio">
+			<label for="radio3">
+				<input type="radio" name='opcion' id='radio3'> Radio Button
+			</label>
+		</div>
+		</div>
+		<!--checkbox en linea-->
+		<div class="form-group">	
+		
+			<label class='checkbox-inline' for="radio1">
+				<input type="checkbox" name='opcion' id='radio1' disabled> Checkbox
+			</label>
+	
+		
+			<label class='checkbox-inline' for="radio2">
+				<input type="checkbox" name='opcion' id='radio2'> Checkbox
+			</label>
+		
+		
+			<label class='checkbox-inline' for="radio3">
+				<input type="checkbox" name='opcion' id='radio3'> Checkbox
+			</label>
+		
+		</div>
+		<!--radio en linea-->
+		<div class="form-group">	
+		
+			<label class='radio-inline' for="radio4">
+				<input type="radio" name='opcion' id='radio4' disabled> Radio Button
+			</label>
+	
+		
+			<label class='radio-inline' for="radio5">
+				<input type="radio" name='opcion' id='radio5'> Radio Button
+			</label>
+		
+		
+			<label class='radio-inline' for="radio6">
+				<input type="radio" name='opcion' id='radio6'> Radio Button
+			</label>
+		
+		</div>
+
+
+</form>
+</div>
+
+
+<!---->
+
+
+
+
+
+
+<!--
+Todos los controles input text , textarea y select llevaran una clase en especial:
+clase form-control: estilos de bootstrap (desplazamiento en  bloque , padding y borde redonedeado).
+
+clases de botones:
+btn: indicar que es un boton
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning
+.btn-danger
+.btn-link
+
+Clase help-block: indicar instrucciones para el formulario añade una texto gris
+
+clase form-group:Encierra los formularios en un grupo
+
+
+
+===================formulario en linea==================0 
+clase form-inline: hace formulario en linea
+
+clase sr-only: 
+solo sra visible para dispositivos de lectura screen readers no sportan siempre los placeholders
+
+clase checkbox: 
+se utilizan en lugar del form-group
+agrega el checkbox al lado de un elemento
+input-group: 
+desplaza los input uno al lado del otro para hacerlos en linea
+input-group-addon: 
+desplaza elementos al lado de un input se le agregar un estilo con el objetivo de mostrar alguna informacion
+
+
+
+
+
+
+Al llegar a los 768px el el formulario  en linea se convierte a bloque
+
+
+
+
+
+====================formularios horizontales=================
+form-horizontal:  clase para formularios horizontales
+
+class control-label: agrega un 100% al label es utiliza para los formularios en linea
+Tambein se puede trabajar como columnas control-label col
+Nos centra las etiquetas verticalmente
+
+form-control-static: se tendra un estilo colocado por defecto
+seteado
+
+offset: desplazar hacia la derecha el contenedor.
+
+disabled: desactivar formularios mediante disabled.
+se puede desabiliar todos los inputs encerrandolos en un fieldset y colocando el atributo disabled sin tener que colocaro a cada input.
+
+se puedn utilizar agregar estados a los inputs para definir si son errores, sucedidos o warnings con:
+has-error
+has-warning
+has-success
+
+para utilizar estos estados en formularios en bloque o en linea habira que agregar la clase control label.
+
+
+
+controles soportados
+======================================
+text
+password
+datetime
+datetime-local
+date
+month
+time
+week
+number
+email
+url
+search
+tel
+color
+
+
+
+-->
+</body>
+</html>

@@ -1,0 +1,16 @@
+Bootstrap es un framework de diseño
+un framework es una especie de herramienta ya preprogramada que nos ayudara
+hacer eficiente la programacion de un desarrollo ya que esta basado en estandarizacion e interoperabilidad
+en este caso bootsrap es un framework de diseño esto significa que nos ayudara a desarrollar los bocetos de nuestras paginas de una manera mas rapida
+Incluye componentes
+Es responsivo
+Utiliza esquema grid rejilla
+Es facil de trabajar
+No es limitado
+Puedes trabajarlo con GitHub
+Bootstrap tambien trabaja con JQuery para sus componentes de javascript
+
+Formas de instlarlo mediante:
+Mediante Bootstrap CDN pegar los links del css y js
+descargando la libreria de bootstrap que contiene los css js y images
+
